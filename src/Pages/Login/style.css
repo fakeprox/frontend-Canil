@@ -1,0 +1,69 @@
+.login-page {
+    max-width: 500px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+
+.login-page article {
+    background: #ffffff;
+    border: 1px solid #dddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+.login-page article p{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 24px;
+}
+.login-page article input{
+    height: 32px;
+    width: 452px;
+    border-radius: 5px;
+    border: 2px solid #9DD8F6;
+    background: none;
+    color: black;
+    display: flex;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.login-page article a{
+    background: none;
+    margin-top: 10px;
+    color: #1883D7;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    cursor: pointer;
+}
+
+.login-page button{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    margin-left: 335px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 120px;
+    margin-top: 10px;
+}
+
+#create-account {
+    background: rgb(247, 244, 244);
+    color: #1883D7;
+}
+
+#login {
+    background: #1883D7;
+    color: #fff;
+
+}	
